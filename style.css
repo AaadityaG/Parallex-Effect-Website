@@ -9,7 +9,6 @@
 body{
     background-color: aliceblue;
     min-height: 100vh;
-    /* overflow: hidden; */
 }
 
 header{
@@ -52,6 +51,7 @@ header{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    overflow: hidden;
 }
 
 #text{
@@ -73,6 +73,7 @@ header{
     position: relative;
     background-color: #003329;
     padding: 100px;
+    overscroll-behavior: contain;
 }
 
 .sec h2{
